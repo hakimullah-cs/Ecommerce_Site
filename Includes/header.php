@@ -104,8 +104,101 @@
              </div>
             </div>
         </div>
-        <div class="navbar-sticky">navbar</div>
-        <div class="navbars">list</div>
+        <div class="navbar-sticky container">
+            <div class="logo"><img src="../images/logo.png" alt="logo"></div>
+            <form class="search">
+                <input type="search" name="" id="search" placeholder="Search for products">
+                <input type="button" value="Search">
+</form>
+            <div class="icons">
+                <div class="icon-con">
+                    <div class="icon">
+                    <i class="fas fa-retweet"></i>
+                    <span>0</span>
+                    </div>
+                    <div class="text">
+                        <div>Product</div>
+                        <div>Compare</div>
+                    </div>
+                </div>
+                <div class="icon-con">
+                    <div class="icon">
+                    <i class="fas fa-heart"></i>
+                    <span>0</span>
+                    </div>
+                    <div class="text">
+                        <div>Favorites</div>
+                        <div>Wishlist</div>
+                    </div>
+                </div>
+                <div class="icon-con">
+                    <div class="icon">
+                    <i class="fas fa-cart-plus"></i>
+                    <span>0</span>
+                    </div>
+                    <div class="text">
+                        <div>My Cart</div>
+                        <div>$ 0.00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbars container">
+            <ul class="navbar-list">
+                <li class="nav-item dropdown"><i class="fas fa-th-large"></i> <span>All Categories</span> <i class="fas fa-caret-down"></i>
+               <ul class="menu-items">
+                <li class="item"><a href="#" class="link">
+                <i class="fas fa-vest-patches"></i>
+                <span>Women's Fashion</span>
+                </a></li>
+                <li class="item"><a href="#" class="link">
+                <i class="fas fa-shopping-basket"></i>
+                <span>Groceries</span>
+                </a></li>
+                <li class="item"><a href="#" class="link">
+                <i class="fas fa-running"></i>
+                <span>Sports & Travel</span>
+                </a></li>
+                <li class="item"><a href="#" class="link">
+                <i class="fas fa-vest"></i>
+                <span>Men's Fashion</span>
+                </a></li>
+                <li class="item"><a href="#" class="link">
+                <i class="fas fa-laptop-medical"></i>
+                <span>Electronics</span>
+                </a></li>
+                <li class="item"><a href="#" class="link">
+                <i class="fas fa-laptop-code"></i>
+                <span>Computing & Gaming</span>
+                </a></li>
+                <li class="item"><a href="#" class="link">
+                <i class="fas fa-bezier-curve"></i>
+                <span>Beauty & Health</span>
+                </a></li>
+                <li class="item"><a href="#" class="link">
+                <i class="fas fa-dreidel"></i>
+                <span>Baby,kids & Toys</span>
+                </a></li>
+                <li class="item"><a href="#" class="link" style="padding:0">
+                <i class="fas fa-ufo-beam"></i>
+                <span>Home & Beauty</span>
+                </a></li>
+               </ul>           
+            
+            </li>
+                <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Women's Fashion</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Men's Fashion</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Electronics</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Home & Beauty</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Home & Garden</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Computer</a></li>
+                <i class="fas fa-times" id="closeicon"></i>
+            </ul>
+            <div class="menu-icon">
+            <i class="fas fa-stream" id="menu"></i>
+            </div>
+        </div>
     </nav>
     <!-- Navbar Ends -->
 </body>
